@@ -22,8 +22,8 @@ body {
 }
 
 p {
-  font-family: "Pacifico", cursive;
-  font-size: 32px;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 40px;
 }
 
 .wrapper {
@@ -60,6 +60,17 @@ p {
   color: var(--blue-color);
   border: 5px solid var(--blue-color);
   border-radius: 15px;
+  position: relative;
+}
+
+.help {
+  position: absolute;
+  bottom: 32px;
+  right: 32px;
+  border: 2px solid var(--blue-color);
+  background-color: transparent;
+  line-height: 0;
+  padding: 0 25px 0 25px;
 }
 
 #aside-left {
