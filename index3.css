@@ -63,16 +63,15 @@ p {
   position: relative;
 }
 
-.help-container {
-  position: sticky;
+.help {
+  position: absolute;
   bottom: 0;
   right: 0;
-}
-
-.help {
-  border: 2px solid var(--blue-color);
-  background-color: transparent;
-  padding: 5px;
+  margin: 10px;
+  background-color: var(--blue-color);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 #aside-left {
