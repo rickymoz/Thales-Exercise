@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
     <link rel="stylesheet" href="calculator.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
@@ -13,7 +17,7 @@
           <input type="text" id="display" />
         </div>
         <div id="calculatorBtns">
-          <button id="clearBtn">C</button>
+          <button>C</button>
           <button>+/-</button>
           <button>%</button>
           <button>/</button>
@@ -32,6 +36,12 @@
           <button id="zeroBtn">0</button>
           <button>.</button>
           <button>=</button>
+        </div>
+        <div id="shortcutBtns">
+          <legend>Shortcuts</legend>
+          <p>&#9003; &rightarrow; Remove last input</p>
+          <p>&#8984; &plus; &#9003; &rightarrow; Clean screen</p>
+          <p>&crarr; &rightarrow; Calculate</p>
         </div>
       </div>
     </div>

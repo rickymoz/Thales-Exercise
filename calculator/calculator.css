@@ -20,8 +20,8 @@ body {
 .calculator {
   display: grid;
   grid-template-areas:
-    "display"
-    "calculatorBtns";
+    "display shortcutBtns"
+    "calculatorBtns shortcutBtns";
 }
 
 .calculatorDisplay {
@@ -53,4 +53,28 @@ body {
 
 #zeroBtn {
   grid-column: span 2;
+}
+
+#shortcutBtns {
+  grid-area: shortcutBtns;
+  margin-left: 20px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  height: 5%;
+}
+
+legend {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+}
+
+p {
+  font-size: 1.1em;
+  margin-bottom: 8px;
+  font-family: "Indie Flower", cursive;
 }
